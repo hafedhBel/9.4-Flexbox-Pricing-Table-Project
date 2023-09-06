@@ -10,6 +10,11 @@
     body {
       font-family: 'Sono', sans-serif;
     }
+    .pricing-plan{
+      padding: 20px;
+      background-color: #A8A8A8;
+      border-radius: 5%;
+    }
     .pricing-container {
             display: flex;
             justify-content: center;
@@ -54,8 +59,8 @@
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
       .pricing-container{
-        display: flex;
-        justify-content: center; 
+        flex-direction: column;
+        height: 100%;
       }   
     }
   </style>
